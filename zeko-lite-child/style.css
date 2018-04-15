@@ -1,0 +1,42 @@
+/*
+Theme Name: Zeko-Lite-Child
+Description: Theme enfant de Zeko-Lite
+Author: Patrice Andreani
+Author URI: https://p2ocr.andre-ani.fr
+Template: zeko-lite
+Version: 1.0
+*/
+
+/* changer couleur background du table d'activités du mois */
+
+.events-table:hover {
+    background-color: #f3f3f3;
+}
+
+.events-table tbody td {
+    text-align: center;
+    width: 10%;
+}
+
+
+
+/* Modification du thème du formulaire de contact Contact Form 7 */
+
+div.wpcf7 { 
+background-color: #b6defe;
+border: 1px solid #004983;
+padding:20px;
+width: 50%;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+background:#725f4c;
+color:#FFF;
+}
+.wpcf7 input[type="submit"],
+.wpcf7 input[type="button"] { 
+background-color:#725f4c;
+width:100%;
+text-align:center;
+}
