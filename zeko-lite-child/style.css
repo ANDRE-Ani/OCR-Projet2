@@ -9,8 +9,9 @@ Version: 1.0
 
 /* changer couleur background du table d'activités du mois */
 
-.events-table:hover {
-    background-color: #f3f3f3;
+
+.events-table tr:hover {
+    background-color: #c9d5ff;
 }
 
 .events-table tbody td {
@@ -23,7 +24,7 @@ Version: 1.0
 /* Modification du thème du formulaire de contact Contact Form 7 */
 
 div.wpcf7 { 
-background-color: #b6defe;
+background-color: #a0aeff; /* couleur fond formulaire */
 border: 1px solid #004983;
 padding:20px;
 width: 50%;
@@ -36,7 +37,21 @@ color:#FFF;
 }
 .wpcf7 input[type="submit"],
 .wpcf7 input[type="button"] { 
-background-color:#725f4c;
+background-color:#725f4c; /* couleur fond texte */
 width:100%;
 text-align:center;
+}
+
+/* couleur footer */
+.site-info {
+    background-color: #cbd8ef;
+}
+
+/* couleur lien */
+.cat-item a {
+    color: #327ab9;
+}
+
+.widget a {
+    color: #327ab9;
 }
