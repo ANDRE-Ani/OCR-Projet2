@@ -7,9 +7,20 @@ Template: zeko-lite
 Version: 1.0
 */
 
+
+.entry-header h1 {
+    display: none;
+}
+
+.widget-title {
+    text-align: center;
+}
+
+.panel-widget-style-for-196-1-0-0 {
+background-color: rgba(50, 48, 47, 0.6);
+}
+
 /* changer couleur background du table d'activités du mois */
-
-
 .events-table tr:hover {
     background-color: #c9d5ff;
 }
@@ -20,27 +31,30 @@ Version: 1.0
 }
 
 
-
 /* Modification du thème du formulaire de contact Contact Form 7 */
-
 div.wpcf7 { 
 background-color: #a0aeff; /* couleur fond formulaire */
 border: 1px solid #004983;
 padding:20px;
-width: 50%;
+width: 70%;
 }
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea {
-background:#725f4c;
-color:#FFF;
+background:white;
+color: black;
 }
 .wpcf7 input[type="submit"],
 .wpcf7 input[type="button"] { 
-background-color:#725f4c; /* couleur fond texte */
+background-color: #5174F7; /* couleur fond texte */
 width:100%;
 text-align:center;
 }
+
+.wpcf7 input[type="submit"]:hover {
+    background-color: #0929A2;
+}
+
 
 /* couleur footer */
 .site-info {
@@ -54,4 +68,16 @@ text-align:center;
 
 .widget a {
     color: #327ab9;
+}
+
+
+/* media queries pour réduire le tableau */
+@media screen and (max-width: 640px) {
+  events-table,
+  tbody,
+  tr,
+  td {
+    display: block;
+    width: auto!important;
+  }
 }
