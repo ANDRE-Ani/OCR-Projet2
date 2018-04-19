@@ -20,9 +20,9 @@ Version: 1.0
 background-color: rgba(50, 48, 47, 0.6);
 }
 
-/* changer couleur background du table d'activités du mois */
+/* changer couleur background du tableau d'activités du mois */
 .events-table tr:hover {
-    background-color: #c9d5ff;
+    background-color: #798dff;
 }
 
 .events-table tbody td {
@@ -80,4 +80,36 @@ text-align:center;
     display: block;
     width: auto!important;
   }
+
+  .event-image {
+      display: none;
+  }
+  
+  .event-time {
+      display: none;
+}
+
+.event-name {
+      display: none;
+}
+
+.event-desc {
+      display: none;
+}
+
+.event-inscription {
+      display: none;
+}
+}
+
+/* media queries pour passer au menu hamburger */
+@media screen and (max-width: 440px) {
+    .site-branding {
+        display: none;
+    }
+    
+    div.wpcf7 {
+        padding:20px;
+        width: 100%;
+    }
 }
